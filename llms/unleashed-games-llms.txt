@@ -1,0 +1,21 @@
+# Unleashed Games
+
+> Unleashed Games is an independent game studio founded by veterans of World of Warcraft, Medal of Honor, and Monopoly Go!, backed by a16z Speedrun. Its flagship title Haven is a cross-platform co-op RPG for families and friends (PC, Mac, console, mobile) built around procedurally generated maps, village building, and collaborative combat. The studio publishes no public developer platform, API, or SDK today.
+
+## Company
+
+- [Website](https://www.unleashedgames.com/): Studio homepage, team, and store
+- [Haven](https://haven.unleashedgames.com/): Flagship co-op RPG site with waitlist
+- [Press Kit](https://www.unleashedgames.com/press-kit): Media assets and studio facts
+
+## Community
+
+- [Discord](https://discord.gg/pCJzWnv5ju): Community and support channel
+- [Twitch](https://www.twitch.tv/unleashinggames): Weekly development streams
+- [YouTube](https://www.youtube.com/@UnleashedGG): Video channel
+- [Patreon](https://www.patreon.com/UnleashedGG): Supporter community
+- [LinkedIn](https://www.linkedin.com/company/unleashedgames): Company profile
+
+## Optional
+
+- [API Evangelist profile](https://raw.githubusercontent.com/api-evangelist/unleashed-games/refs/heads/main/apis.yml): APIs.json machine-readable profile of this company

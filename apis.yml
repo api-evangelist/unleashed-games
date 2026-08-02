@@ -1,7 +1,23 @@
 aid: unleashed-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unleashed-games.png
 name: Unleashed Games
-description: Unleashed Games is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Unleashed Games is an independent game studio founded by industry veterans
+  (World of Warcraft, Medal of Honor, Monopoly Go!) and backed by a16z Speedrun, building
+  socially-driven cooperative games. Its flagship title Haven is a cross-platform co-op
+  RPG for families and friends spanning PC, Mac, console, and mobile, with procedurally
+  generated maps, village building, and collaborative combat. The studio publishes no
+  public developer platform or API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/unleashed-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +27,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Video Games
+- RPG
+- Co-Op Games
+- Cross-Platform
+- Social Gaming
 apis: []
+common:
+- type: DomainSecurity
+  url: security/unleashed-games-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.unleashedgames.com/
+- name: Haven Game Site
+  type: ProductPage
+  url: https://haven.unleashedgames.com/
+- name: Press Kit
+  type: PressKit
+  url: https://www.unleashedgames.com/press-kit
+- name: Discord Community
+  type: Support
+  url: https://discord.gg/pCJzWnv5ju
+- name: Discord
+  type: Discord
+  url: https://discord.gg/pCJzWnv5ju
+- name: Twitch
+  type: Twitch
+  url: https://www.twitch.tv/unleashinggames
+- name: YouTube
+  type: YouTube
+  url: https://www.youtube.com/@UnleashedGG
+- name: LinkedIn
+  type: LinkedIn
+  url: https://www.linkedin.com/company/unleashedgames
+- name: Patreon
+  type: Patreon
+  url: https://www.patreon.com/UnleashedGG
+- name: Well-Known Probe Index
+  type: WellKnown
+  url: well-known/unleashed-games-well-known.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/unleashed-games-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
